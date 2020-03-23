@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'wice_grid'
-  s.version       = '4.1.0'
+  s.version       = '4.2.0'
   s.authors       = ['Yuri Leikind and contributors']
   s.email         = ['patrick@yamasolutions.com']
   s.homepage      = 'https://github.com/patricklindsay/wice_grid'
@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   s.license       = 'MIT'
   s.require_paths = ['lib']
-  s.date          = '2018-11-28'
+  s.date          = '2020-03-23'
 
-  # s.add_dependency 'rails', '~> 5.0', '< 5.3'
+  s.add_dependency 'rails', '~> 6.0', '< 6.1'
   s.add_dependency 'kaminari',          ['~> 1.1.0']
   s.add_dependency 'coffee-rails',      ['> 3.2']
 
